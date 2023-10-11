@@ -1,0 +1,49 @@
+{
+	"name": "admin-dashboard-vite-ts-syncfusion",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@syncfusion/ej2": "~20.2",
+		"@syncfusion/ej2-charts": "~20.2",
+		"@syncfusion/ej2-react-calendars": "~20.2",
+		"@syncfusion/ej2-react-charts": "~20.2",
+		"@syncfusion/ej2-react-dropdowns": "~20.2",
+		"@syncfusion/ej2-react-grids": "~20.2",
+		"@syncfusion/ej2-react-inputs": "~20.2",
+		"@syncfusion/ej2-react-kanban": "~20.2",
+		"@syncfusion/ej2-react-popups": "~20.2",
+		"@syncfusion/ej2-react-richtexteditor": "~20.2",
+		"@syncfusion/ej2-react-schedule": "~20.2",
+		"react": "~18.2",
+		"react-dom": "~18.2",
+		"react-icons": "~4.9",
+		"react-router-dom": "~6.16"
+	},
+	"devDependencies": {
+		"@types/react": "~18.2",
+		"@types/react-dom": "~18.2",
+		"@types/react-router-dom": "~5.3",
+		"@vitejs/plugin-react-swc": "~3.4",
+		"autoprefixer": "~10.4",
+		"dotenv": "~16.3",
+		"postcss": "~8.4",
+		"tailwindcss": "~3.3",
+		"typescript": "~5.2",
+		"vite": "~4.4",
+		"vite-tsconfig-paths": "~4.2"
+	},
+	"development": [
+		"last 1 chrome version",
+		"last 1 firefox version",
+		"last 1 safari version"
+	],
+	"main": "index.js",
+	"repository": "https://github.com/EduardoMG12/admin-dashboard.git",
+	"license": "MIT"
+}
