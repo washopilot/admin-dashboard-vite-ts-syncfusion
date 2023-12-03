@@ -1,6 +1,6 @@
 import React from "react";
 import { BsCurrencyDollar } from "react-icons/bs";
-import { GoPrimitiveDot } from "react-icons/go";
+import { GoDotFill } from "react-icons/go";
 import { Stacked, Pie, Button, SparkLine } from "../components";
 import { earningData, SparklineAreaData, ecomPieChartData } from "../data/dummy";
 import { useStateContext } from "src/contexts/ContextProvider";
@@ -50,13 +50,13 @@ const Ecommerce: React.FC = () => {
 						<div className="flex items-center gap-4">
 							<p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
 								<span>
-									<GoPrimitiveDot />
+									<GoDotFill />
 								</span>
 								<span>Expense</span>
 							</p>
 							<p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
 								<span>
-									<GoPrimitiveDot />
+									<GoDotFill />
 								</span>
 								<span>Budget</span>
 							</p>
